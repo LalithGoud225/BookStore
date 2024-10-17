@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Helvetica, sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ui {
+  font-family: Helvetica, sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+b,
+span,
+a,
+img,
+ul,
+ol,
+li,
+table,
+tr,
+td,
+th,
+form,
+input,
+textarea,
+button,
+label,
+select,
+option,
+nav,
+footer,
+header,
+main {
+  font-family: Helvetica, sans-serif !important;
+}
+
+/* index.css */
+
+/* Global styles for input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Global styles for buttons */
+button,
+input[type="submit"] {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Specific styling for primary buttons */
+.primary-button {
+  background-color: #2185d0;
+  color: white;
+  border: none;
+}
+
+.primary-button:hover {
+  background-color: #1678c2;
+}
+
+/* Specific styling for secondary buttons */
+.secondary-button {
+  background-color: #ddd;
+  color: #333;
+  border: none;
+}
+
+.secondary-button:hover {
+  background-color: #ccc;
+}
+
+/* index.css */
+
+/* Global styles for Semantic UI input fields */
+.ui.input input,
+.ui.input textarea {
+  border-radius: 5px;
+}
+
+/* Global styles for Semantic UI buttons */
+.ui.button,
+.ui.buttons .button {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Specific styling for primary buttons */
+.ui.primary.button,
+.ui.buttons .primary.button {
+  background-color: #2185d0;
+  color: white;
+  border: none;
+}
+
+.ui.primary.button:hover,
+.ui.buttons .primary.button:hover {
+  background-color: #1678c2;
+}
+
+/* Specific styling for secondary buttons */
+.ui.secondary.button,
+.ui.buttons .secondary.button {
+  background-color: #ddd;
+  color: #333;
+  border: none;
+}
+
+.ui.secondary.button:hover,
+.ui.buttons .secondary.button:hover {
+  background-color: #ccc;
+}
+
+/* index.css */
+
+/* Global styles for Semantic UI input fields */
+.ui.input input,
+.ui.input textarea {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Global styles for Semantic UI buttons */
+.ui.button,
+.ui.buttons .button {
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Specific styling for primary buttons */
+.ui.primary.button,
+.ui.buttons .primary.button {
+  background-color: #2185d0;
+  color: white;
+  border: none;
+}
+
+.ui.primary.button:hover,
+.ui.buttons .primary.button:hover {
+  background-color: #1678c2;
+}
+
+/* Specific styling for secondary buttons */
+.ui.secondary.button,
+.ui.buttons .secondary.button {
+  background-color: #ddd;
+  color: #333;
+  border: none;
+}
+
+.ui.secondary.button:hover,
+.ui.buttons .secondary.button:hover {
+  background-color: #ccc;
+}
